@@ -1,0 +1,12 @@
+what do you think about {$USER}'s nose?
+huge.
+
+I hate {$USER}.
+Yeah me too, {$USER} is such a dweeb.
+
+I wish {$USER} would cut his fingernails.
+Yeah {$USER} is a bit of a nerd.
+
+I can't believe you still talk to {$USER}.
+
+I couldn't wait for {$USER} to leave.
