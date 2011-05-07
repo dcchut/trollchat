@@ -167,7 +167,8 @@ def on_chan_msg(word, word_eol, userdata):
     if xchat.get_context().get_info('channel') != '#newvce':
         return None
        
-    user, text = word
+    user = word[0]
+    text = word[1]
 
     # have we seen the first line?
     if len(hsay) > 0 and text == hsay[0][1]:
@@ -181,7 +182,8 @@ def on_chan_msg(word, word_eol, userdata):
 def on_ctcp(word, word_eol, userdata):
     global troll_master, peons
     
-    text, user = word
+    text = word[0]
+    user = word[1]
     
     # only intercept trollchat messages
     if 'TROLLCHAT' not in text:
